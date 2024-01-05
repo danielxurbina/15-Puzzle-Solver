@@ -24,3 +24,9 @@ Replace [initial state] with the initial configuration of the 15 Puzzle. For exa
 ./15_puzzle_solver 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 0
 ```
 You can use `GenGemPuzzle.c` to generate initial states to use for the puzzle. It takes an integer as its argument, which is the number of moves it makes before it finishes. When running the program with the inital states, it should have 16 unique integers between 0 and 15 (including 0 and 15).
+
+To run the GenGemPuzzle.c program, run the following commands:
+```
+gcc GenGemPuzzle.c -o GenGemPuzzle
+./GenGemPuzzle [number of moves]
+```
